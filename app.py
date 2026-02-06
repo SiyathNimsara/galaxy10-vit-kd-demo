@@ -27,11 +27,13 @@ DRIVE_FILES = {
     "vit_kd": "https://drive.google.com/file/d/1_IsRThzM0S-qG45bzwh-tmlECOy_sVsC/view?usp=sharing",
 
     # Result images (we will add later)
-    "cm_teacher": "PASTE_CM_TEACHER_PNG_DRIVE_LINK_HERE",
-    "cm_vit": "PASTE_CM_VIT_PNG_DRIVE_LINK_HERE",
-    "cm_kd": "PASTE_CM_KD_PNG_DRIVE_LINK_HERE",
-    "kd_curve_acc": "PASTE_KD_CURVE_ACC_PNG_DRIVE_LINK_HERE",
-    "kd_curve_loss": "PASTE_KD_CURVE_LOSS_PNG_DRIVE_LINK_HERE",
+    # Result images
+    "cm_teacher": "https://drive.google.com/file/d/16Ui9tuooBsPe0DsQRvCydZ2I2ofYLvUt/view?usp=sharing",
+    "cm_vit": "https://drive.google.com/file/d/1sav1gtWkpaHW-pwvYzTEOUry3K0YUt3N/view?usp=sharing",
+    "cm_kd": "https://drive.google.com/file/d/1wRcVCftYitwr8nT8ydIgjrK2TSotTHBh/view?usp=sharing",
+    "kd_curve_acc": "https://drive.google.com/file/d/1qG2-cuV_zETqd_8MW2sBnTpLw6JJ3vZg/view?usp=sharing",
+    "kd_curve_loss": "https://drive.google.com/file/d/1pzhugMV9dlk7IphJxWcFJuShOVBZjzkl/view?usp=sharing",
+
 }
 
 
