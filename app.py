@@ -149,7 +149,7 @@ def predict(model, pil_img: Image.Image):
 # -----------------------------
 st.set_page_config(page_title="Galaxy10 ViT + KD Demo", page_icon="🌌", layout="wide")
 
-st.title("🌌 Galaxy Morphology Classification — Teacher CNN vs ViT vs ViT+KD")
+st.title("Galaxy Morphology Classification — Teacher CNN vs ViT vs ViT+KD")
 st.caption("Interactive demo for FYP: Improving Vision Transformer performance on small dataset using Knowledge Distillation from a CNN teacher.")
 
 page = st.sidebar.radio("Navigation", ["Predict", "Results", "About"])
@@ -187,7 +187,7 @@ teacher, vit_base, vit_kd = load_models(teacher_file, vit_base_file, vit_kd_file
 # PREDICT PAGE
 # -----------------------------
 if page == "Predict":
-    st.subheader("🔎 Predict Galaxy Class")
+    st.subheader("Predict Galaxy Class")
     col1, col2 = st.columns([1, 1])
 
     with col1:
@@ -233,7 +233,7 @@ if page == "Predict":
 # RESULTS PAGE
 # -----------------------------
 elif page == "Results":
-    st.subheader("📊 Experimental Results Summary")
+    st.subheader("Experimental Results Summary")
 
     st.markdown("### Final Comparison (Test Accuracy)")
     st.dataframe(FINAL_RESULTS, use_container_width=True)
@@ -272,7 +272,7 @@ elif page == "Results":
 # ABOUT PAGE
 # -----------------------------
 else:
-    st.subheader("ℹ️ About This Project")
+    st.subheader("About This Project")
     st.write("""
 **Project Title:** Improving Vision Transformer (ViT) performance on a small dataset using Knowledge Distillation (KD) from a CNN teacher.
 
